@@ -1,0 +1,213 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold?styles=20880');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    color: #1B202C;
+}
+.container {
+    width: 100vw;
+    background-color: #F5F5F5;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    font-family: 'Gilroy-Bold', sans-serif;
+
+}
+
+.header-logo span:last-child {
+    color: #F7AD56;
+}
+
+.nav-hrefs {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;  
+}
+
+.nav-btns {
+    display: flex;
+    gap: 26px;
+    margin-left: 40px;
+}
+
+.nav-help {
+    background-color: #F5F5F5;
+    padding: 16px;
+    border: 1px solid rgba(27, 32, 44, 0.16);
+    border-radius: 10px;
+}
+
+.nav-log-in {
+    padding: 12px 20px;
+    font-size: 20px;
+    color: #F7AD56;
+    background-color: #F5F5F5;
+    border: 0;
+}
+
+.nav-sign-up {
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: #F7AD56;
+    border-radius: 10px;
+    border: 0;
+    color: #F5F5F5;
+}
+
+.title-text {
+    font-size: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    text-align: center;
+    margin-top: 47px;
+}
+
+.title-logo {
+    font-size: 80px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-bottom: 18px;
+}
+
+.title-logo span:last-child {
+    color: #F7AD56;
+}
+
+.title-search {
+    width: 44%;
+    margin: 32px auto 75px;
+    border: 1px solid rgba(27, 32, 44, 0.12);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.search-content {
+    width: 59%;
+    display: flex;
+}
+
+.search-content input {
+    background-color: #F5F5F5;
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding: 17px;
+    font-size: 24px;
+    width: 100%;
+    border: 0;
+}
+
+.search-content input:focus {
+    outline: none !important;
+}
+
+.search-btns {
+    display: flex;
+    gap: 24px;
+}
+
+.search-btn {
+    font-size: 24px;
+    padding: 16px 24px;
+    background: #F5F5F5;
+    border: 1px solid rgba(27, 32, 44, 0.16);
+    border-radius: 10px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.title-content {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.title-content-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    width: 845px;
+    height: 691px;
+    background: #1B202C;
+    border-radius: 10px;
+    color: #F5F5F5;
+    overflow: hidden;
+}
+
+.title-content-block:last-child {
+    background-color: #F7AD56;
+}
+
+.content-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 40px 40px 40px;
+}
+
+.content-footer button {
+    height: 68%;
+    align-self: end;
+}
+
+.content-block-text h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+
+}
+
+.content-block-text p {
+    font-size: 28px;
+    color: #FFFFFF;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.next-btn {
+    padding: 21px;
+    border-radius: 10px;
+    background: #F7AD56;
+    border: 0;
+}
+
+.nav-hrefs a:hover, .nav-log-in:hover{
+    color: #ef8242;
+    transition: .3s;
+}
+.next-btn:hover , .nav-sign-up:hover {
+    background: #ef8242;
+    transition: .3s;
+}
+
+.black {
+    background-color: #1B202C;
+}
